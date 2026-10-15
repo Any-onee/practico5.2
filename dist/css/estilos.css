@@ -10,3 +10,19 @@
     margin: 6px;
 
 }
+.cont{
+    display: flex;
+    margin-left: 80px;
+
+}
+.cont3{
+   display: block;
+   justify-content: center;
+   padding-left: 144px;
+}
+.img2{
+    justify-content: center;
+    width: 30%;
+    height: 200px;
+    
+}
