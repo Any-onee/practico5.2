@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="dist/css/estilos.css">
 </head>
-<body>
+<body class="body">
     <div class="con">
         <div><img src="dist/imagenes/logo.jpg" class="img"></div>
         <div class="con2">
@@ -20,7 +20,7 @@
         <div class="cont3">
             <h1>Texto</h1>
             <a href="paginas/pagina.html">
-               <button>Boton</button>  
+               <button class="boton-enviar">Redirigir</button> 
             </a>
            
         </div>
@@ -31,8 +31,15 @@
         <img src="dist/imagenes/Soft Girl Skincare Routine for Glowing Skin.jpg" class="img3">
     </div>
 
-    <div>
-        <h1 class="texto">Formulario</h1>
+    <div class="contenedor-formulario">
+    <h1 class="titulo-formulario">Formulario</h1>
+    <form class="formulario-box">
+        <div class="campos-grupo">
+           <input placeholder="Email" class="input-formulario" required>
+           <input placeholder="Contraseña" class="input-formulario" required>
+        </div>
+        <button class="boton-enviar">Enviar</button>
+    </form>
     </div>
 
     <div class="pie">

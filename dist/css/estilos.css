@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 .con{
     display: flex;
    
@@ -64,4 +68,116 @@
     align-items: center;
     gap: 40px;
     align-items: end;
+}
+.contenedor-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    border: 2px solid rgb(255, 190, 236);
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.titulo-formulario {
+    color: rgb(255, 190, 236);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.formulario-box {
+    width: 90%;
+    border: 2px solid rgb(255, 190, 236);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+.campos-grupo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.input-formulario {
+    width: 60%;
+    padding: 10px;
+    border: 2px solid rgb(255, 190, 236);
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.boton-enviar {
+    padding: 8px 20px;
+    border: 2px solid rgb(255, 190, 236);
+    border-radius: 8px;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+}
+
+.boton-enviar:hover {
+    background-color:rgb(255, 190, 236);
+    color: #000;
+}
+.boton{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 40px;   
+    margin-bottom: 40px;
+}
+.botonmas{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.contenedor-principal {
+    display: flex;
+    gap: 20px; 
+    padding: 20px;
+}
+
+
+.cuadrado {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 190, 236); 
+}
+
+
+.columna-derecha {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+
+.rectangulo-arriba {
+    width: 100%;
+    height: 110px;
+    background-color: rgb(255, 190, 236);
+}
+
+
+.fila-abajo {
+    display: flex;
+    gap: 20px;
+}
+
+.rectangulo-pequeno {
+    width: 50%;
+    height: 80px;
+    background-color: rgb(255, 190, 236);
 }
